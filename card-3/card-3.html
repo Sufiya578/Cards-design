@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive web design</title>
+    <style>
+
+      
+            @media screen and (min-width:1140px){   
+            .col{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:40px;
+               }
+            .card{
+            width:33.3%;
+            border:none;
+            background-color: blue;
+            color:white;
+            border-radius:8px;
+            padding:30px;
+            margin:30px;
+             }
+             } 
+            @media (min-width:576px) and (max-width:1140px){
+            .col{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:40px; 
+            }
+            .card{
+            width: 50%;
+            border:none;
+            background-color: brown;
+            color:white;
+            border-radius:8px;
+            padding:30px;
+            margin:30px;
+            }
+            }
+            @media (max-width:576px) and (orientation:portrait){
+            .col{
+            display:inline-grid;
+            justify-content: space-between;
+            align-items: center;
+            padding:40px;
+            
+            }
+            .card{
+            width:100%;
+            border:none;
+            background-color: black;
+            color:white;
+            border-radius:8px;
+            padding:30px;
+            margin:30px;
+            }
+             }   
+       *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        body{
+            width:100%;
+        }
+        .btn{
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+        margin:15px;
+    }
+    button{
+        background-color:white;
+        color: orange;
+        border:none;
+        border-radius: 5px;
+        padding:5px;
+    }
+    .card h1{
+        margin:10px;
+        text-align:center ;
+    }
+    .card p{
+        line-height: 24px;
+    }
+    </style>
+</head>
+<body>
+    <section>
+    <div class="col">
+    <div class="card">
+        <h1>Responsive web design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consectetur inventore. Aliquam consequatur adipisci ipsam temporibus eligendi. Recusandae consequuntur maxime dicta so amet!</p>
+        <div class="btn">
+         <button>learn more</button>
+        </div>
+    </div>
+    <div class="card">
+        <h1>Responsive web design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consectetur inventore. Aliquam consequatur adipisci ipsam temporibus eligendi. Recusandae consequuntur maxime ds maiores nostrum amet!</p>
+        <div class="btn">
+         <button>learn more</button>
+        </div>
+    </div>
+    <div class="card">
+        <h1>Responsive web design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consectetur inventore. Aliquam consequatur adipisci ipsamdunt veniam et placeat eligendi quo neque, odit voluptatibus maiores nostrum amet!</p>
+        <div class="btn">
+         <button>learn more</button>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>

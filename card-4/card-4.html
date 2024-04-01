@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <style>
+        :root{
+        --background: #000;
+        --pdng:30px;
+        --text-color:white;
+
+    }
+    body{
+        position:relative;
+    }
+
+    .card{
+        background-color: var(--background);
+        padding:var(--pdng);
+        color: var(--text-color);
+        width:30%;
+        line-height: 24px;
+        position:absolute;
+        left:33%;
+        margin-top:100px
+       
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align:start;
+    }
+    button{
+        background-color:var(--text-color);
+        color: var(--background);
+        border:none;
+        border-radius: 5px;
+        padding:5px;
+
+    } 
+    .btn{
+      justify-content: center;
+        align-items: center;
+        display: flex;
+       
+    }
+    .img{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+        <img src="logo.png" alt="alt">
+    </div>
+        <h1>Hello world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt velit voluptatem et quibusdam autem aspernatur reprehenderit atque, quam eveniet doloremque at dolorum hic culpa nesciunt dolore saepe in commodi. Quibusdam facilis quam inventore repellendus minus repudiandae quas eaque eveniet sint deleniti aperiam deserunt odio, cum voluptas facere fugit amet suscipit accusamus delectus odit culpa nostrum libero. Perspiciatis voluptates, fugit dolexercitationem?</p>
+      <div class="btn">
+        <button>Read more</button>
+    </div>
+</div>
+    
+</body>
+</html>

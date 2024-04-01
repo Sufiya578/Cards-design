@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+section{
+    padding:120px 0;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+.row{
+    display:flex;
+    width:100%;
+}
+.col-1{
+    display:flex;
+    width:33.3%;
+    max-width:33.3%;
+}
+.item-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241 241 241);
+    padding: 40px 10px;
+    margin-top: 40px;
+
+}
+
+.details-1 ul li {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+.item-1 h6,
+.item-1 h5,
+.item-1 h3{
+    margin-bottom: 8px;
+}
+.details-1 ul{
+    list-style: none;
+}
+.btn{
+    color:white;
+    background-color: green;
+    width:100%;
+    text-align: center;
+}
+
+.details-1 img {
+    margin-right: 6px;
+    width: 18px;
+}
+.item-1 .title{
+    background-color: #DCFCE7;
+    padding: 4px;
+    font-size: 13px;
+    color: #22C55E;
+    width:80px;
+    text-align: center;
+}
+.conatiner h6,
+.container h1,
+.container p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container h6{
+    background-color:#DCFCE7;
+    color: #22C55E;
+    width:40px;
+}
+.plan{
+    color:#22C55E;
+    font-weight: 400;
+}
+.container h3{
+    font-weight: 600;
+    
+}
+.container p{
+    font-weight: 500;
+    font-size:x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h1{
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   .item-1 h5{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   
